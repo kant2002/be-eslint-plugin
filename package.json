@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/eslint-plugin",
+    "name": "@kant2002-diia-inhouse/eslint-plugin",
     "version": "1.6.0",
     "description": "common eslint plugin",
     "main": "dist/index.js",
@@ -27,7 +27,7 @@
     "author": "Diia",
     "devDependencies": {
         "@commitlint/cli": "17.1.2",
-        "@diia-inhouse/configs": "^1.26.3",
+        "@kant2002-diia-inhouse/configs": "^1.26.3",
         "@types/jest": "29.2.0",
         "@typescript-eslint/eslint-plugin": "6.10.0",
         "@typescript-eslint/parser": "6.10.0",
@@ -60,13 +60,13 @@
         "ts-patch": "2.0.2"
     },
     "jest": {
-        "preset": "@diia-inhouse/configs/dist/jest"
+        "preset": "@kant2002-diia-inhouse/configs/dist/jest"
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
     "release": {
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package",
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package",
         "branches": [
             "main"
         ]

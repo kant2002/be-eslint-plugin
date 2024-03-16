@@ -41,12 +41,12 @@
             {
                 "pathGroups": [
                     {
-                        "pattern": "@diia-inhouse/diia-app",
+                        "pattern": "@kant2002-diia-inhouse/diia-app",
                         "group": "external",
                         "position": "after"
                     },
                     {
-                        "pattern": "@diia-inhouse/**",
+                        "pattern": "@kant2002-diia-inhouse/**",
                         "group": "external",
                         "position": "after"
                     },
